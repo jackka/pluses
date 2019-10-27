@@ -3,6 +3,12 @@
 a)
 */
 
+class A {
+  public:
+  static  int x;
+  void get_0 () const{}
+};
+
 int A::x;
 int main () {
 const A a;
